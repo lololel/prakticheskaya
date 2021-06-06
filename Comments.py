@@ -7,14 +7,11 @@ def Entry_form(): #присвоение переменным значения с
     log=[]
     Surname = request.forms.get('lastname')
     Name = request.forms.get('firstname')
-    Date = request.forms.get('Date')
     email = request.forms.get('email')
-    Gender = request.forms.get('gender')
-    Country = request.forms.get('country')
     Comment = request.forms.get('comment')
 
     match = '[a-zA-Z0-9+-]+[@][a-zA-Z0-9-.]+[^.].[a-zA-Z0-9-.]{2,3}$'
-    if Surname=="" or Name=="" or Date=="" or email=="" or Comment=="":
+    if Surname=="" or Name=="" or email=="" or Comment=="":
         return "Not all fields are filled "
     else:
          if (re.search(match, email)):
@@ -23,10 +20,7 @@ def Entry_form(): #присвоение переменным значения с
               f.writelines("------------------------------------------------------------------------------------------"+"\n") #Запись в файл
               f.writelines("Surname: "+Surname+"\n")
               f.writelines("Name: "+Name+"\n")
-              f.writelines("Date: "+Date+"\n")
               f.writelines("email: "+email+"\n")
-              f.writelines("Gender: "+Gender+"\n")
-              f.writelines("Country: "+Country+"\n")
               f.writelines("Comment: "+Comment+"\n")
               f.close()
                   #-----------------------------------Вывод кнопки Возвращения назад------------------------------------

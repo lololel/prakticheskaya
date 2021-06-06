@@ -21,8 +21,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/Reg">Registratision</a></li>
-                    <li><a href="/Entry">Entry</a></li>
+                    <li><a href="/index">home</a></li>
+                    <li><a href="/about">about</a></li>
                     <li><a href="/Comments">Comments</a></li>
                 </ul>
             </div>

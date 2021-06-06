@@ -5,7 +5,7 @@ import myform
 import Comments
 from bottle import route, view
 @route('/')
-@route('/home')
+@route('/index')
 @view('index')
 def home():
     """Renders the home page."""

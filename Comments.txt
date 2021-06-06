@@ -1,48 +1,15 @@
 ------------------------------------------------------------------------------------------
-Surname: Morin
-Name: James
-Date: 2021-06-03
-email: JamesJMorin@mail.ru
-Gender: Male
-Country: America
-Comment: After reading the article about Ewoks, I learned a lot of new and interesting things, thanks for such a geat site!
+Surname: andrew
+Name: andew
+email: tenerplo@gmail.com
+Comment: aboba 
 ------------------------------------------------------------------------------------------
-Surname: Fai
-Name: Chen
-Date: 2021-06-02
-email: FaiChen@mail.ru
-Gender: Male
-Country: China
-Comment: Porgs are very cute creatures, as I thought, now I'm 100% sure of it
+Surname: andrew
+Name: andrew
+email: prara@gmail.com
+Comment: bubet
 ------------------------------------------------------------------------------------------
-Surname: Kharitonova
-Name: Karina
-Date: 2021-06-03
-email: KarinaKharitonova@mail.ru
-Gender: Female
-Country: Russia
-Comment: I learned that Wookiees are not just a people, but a creatures with a very interesting history.	
-------------------------------------------------------------------------------------------
-Surname: Spiridonov
-Name: Matvei
-Date: 2021-06-04
-email: m.d.spiridonov@yandex.ru
-Gender: Male
-Country: Russia
-Comment: test
-------------------------------------------------------------------------------------------
-Surname: Spiridonov
-Name: Matvei
-Date: 2021-06-04
-email: m.d.spiridonov@yandex
-Gender: Female
-Country: India
-Comment: wow it's great site
-------------------------------------------------------------------------------------------
-Surname: Spiridonov
-Name: Matvei
-Date: 2021-06-06
-email: m.d.spiridonov@yandex.ru
-Gender: Male
-Country: Russia
-Comment: test
+Surname: andrew
+Name: andew
+email: zdsssfgdah@gmail
+Comment: sg
