@@ -18,7 +18,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>Magic mrazi</Name>
     <RootNamespace>Magic mrazi</RootNamespace>
-    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env6|$(MSBuildProjectFullPath)</InterpreterId>
     <WebBrowserPort>
     </WebBrowserPort>
     <TestFramework>unittest</TestFramework>
@@ -66,15 +66,24 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\image\atat.png" />
+    <Content Include="static\image\atat2.png" />
+    <Content Include="static\image\auqntum.png" />
     <Content Include="static\image\banner.png" />
+    <Content Include="static\image\COOL.jpg" />
+    <Content Include="static\image\darken.jpg" />
     <Content Include="static\image\databank_ewok.jpeg" />
     <Content Include="static\image\ewok-village.jpg" />
     <Content Include="static\image\ewoks.jpg" />
+    <Content Include="static\image\field3.jpg" />
     <Content Include="static\image\m_wik.png" />
     <Content Include="static\image\m_wok.png" />
     <Content Include="static\image\Porgs1.png" />
     <Content Include="static\image\Porgs2.jpg" />
     <Content Include="static\image\Porgs3.jpg" />
+    <Content Include="static\image\qunt.PNG" />
+    <Content Include="static\image\Quntpic.jpg" />
+    <Content Include="static\image\Standart.png" />
     <Content Include="static\image\wek.png" />
     <Content Include="static\image\Wookiee.png" />
     <Content Include="static\image\porgi.jpg" />
@@ -94,6 +103,7 @@
     <Content Include="static\scripts\respond.min.js" />
     <Content Include="static\scripts\_references.js" />
     <Content Include="views\Comments.tpl" />
+    <Content Include="views\ther.tpl" />
     <Content Include="views\Reg.tpl" />
     <Content Include="views\Entry.tpl" />
     <Content Include="views\Porgs.tpl" />
@@ -116,6 +126,15 @@
       <Id>env4</Id>
       <Version>3.7</Version>
       <Description>env4 (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+    <Interpreter Include="env6\">
+      <Id>env6</Id>
+      <Version>3.8</Version>
+      <Description>env6 (Python 3.8)</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>

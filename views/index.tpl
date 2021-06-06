@@ -1,49 +1,28 @@
 % rebase('layout.tpl', title='Home Page')
-
-
- <img src= "static\image\banner.png">
- <form>
-
- <style> 
-    .center
-    {
-            position: absolute;
-            top: 5%;
-            left: 25%;
-    }
-    .block-left
-    {
-        width:50%;
-        height:800px;
-        overflow:auto;
-        float:left;
-    }
-    .block-right
-    {
-        width:50%;
-        height:800px;
-        overflow:auto;
-    }
-</style>
-
+<img src= "static\image\atat2.png">
 <div class="row">
     <div class="col-md-4">
-        <h2>Porgs</h2>
-        <img src= "static\image\porgi.jpg">
-        <p>They're from Ahch-To. Luke called them porgs. They're adorable.</p>
-        <p><a class="btn btn-default" href=/Porgs>Learn more &raquo;</a></p>
+        <h2>Learn more about quantum physics</h2>
+        <img src= "static\image\qunt.png">
+        <p>
+           This site is dedicated to quantum physics.
+        </p>
+        <p><a class="btn btn-default" href=/ther>Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Ewoks</h2>
-        <img src= "static\image\ewoks.jpg">
-        <p>The Ewoks are fierce warriors. The top of the food chain on a savage planet!</p>
-        <p><a class="btn btn-default" href=/Ewoks>Learn more &raquo;</a></p>
+        <h2>Solving compatibility issues</h2>
+        <p>The Python Package Index is a repository of software for the Python programming language.</p>
+        <p><a class="btn btn-default" href="https://pypi.python.org/pypi">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Wookiee</h2>
-        <img src= "static\image\Wookiee.png">
-        <p>It's not wise to upset a Wookiee.</p>
-        <p><a class="btn btn-default" href=/Wookiee>Learn more &raquo;</a></p>
+        <h2>Microsoft Azure</h2>
+        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
+        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
     </div>
+</div>
+<h3> Ask a Question </h3>
+<form action="/home" method="post">
+        <p><textarea rows="2" cols="50" name="QUEST" placeholder="Your question"></textarea></p> 
+        <p><input type="text" size="50" name="ADRESS" placeholder="Your email"></p>
+        <p><input type="submit" value="Send" class="btn btn-default"></p>
 </form>
-

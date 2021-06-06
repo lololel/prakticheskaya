@@ -60,3 +60,13 @@ def contact():
     return dict(
         title='Comments'
         )
+
+
+@route('/ther')
+@view('ther')
+def contact():
+    """Renders the contact page."""
+    return dict(
+        title='ther'
+
+    )
